@@ -34,6 +34,5 @@ public class javad2 {
     //     int c = a; // c=5
     //     c += 2; // c=c+2=7  //speed optimization
     //     // System.out.println("The value of c is :" + c); //7    
-    // }
-
+    }
 }
