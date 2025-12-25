@@ -12,6 +12,13 @@
 import java.util.Scanner;
 public class javad7 {
 
+    public static int  factorial(int n) {
+        int f=1;
+        for (int i=1; i<=n; i++) {
+            f = f * i;
+        }
+        return f;
+    }
     // public static void add(int a, int b) {
    
     //     int sum = a+b;
@@ -24,19 +31,20 @@ public class javad7 {
     //     int b = sc.nextInt();
     //     add();
 
-    public static void add(int num1, int num2) { // parameters or formal arguments
-        int sum = num1 + num2; 
-        System.out.println("Sum is: " + sum);
-    }
+    // public static void add(int num1, int num2) { // parameters or formal arguments
+    //     int sum = num1 + num2; 
+    //     System.out.println("Sum is: " + sum);
+    // }
 
-    // formal parameters are used in method/function declaration/definition and actual parameters(arguments) are used in method/function call (actual value passed)
-    public static void main (String args []) {
-        System.out.println("Enter two numbers: ");
-        Scanner sc = new Scanner (System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-    add(a,b);
-sc.close();
+    // // formal parameters are used in method/function declaration/definition and actual parameters(arguments) are used in method/function call (actual value passed)
+     public static void main (String args []) {
+        System.out.println(factorial(4));
+    //     System.out.println("Enter two numbers: ");
+    //     Scanner sc = new Scanner (System.in);
+    //     int a = sc.nextInt();
+    //     int b = sc.nextInt();
+    // add(a,b);
+// sc.close();
   //  pass a and b as arguments to the add method
   // if the input taking from main class then we have to pass the values as arguments to the method like add(a,b);  
     }
