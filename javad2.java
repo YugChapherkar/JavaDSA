@@ -1,8 +1,8 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 public class javad2 {
     public static void main (String[] args){
-        int a=5;
-        int b=10;
+        // int a=5;
+        // int b=10;
         //System.out.println("The value of a is :" + (a+b));
 
         //Unary operator [DAY 3]

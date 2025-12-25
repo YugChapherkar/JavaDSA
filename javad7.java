@@ -36,7 +36,7 @@ public class javad7 {
         int a = sc.nextInt();
         int b = sc.nextInt();
     add(a,b);
-
+sc.close();
   //  pass a and b as arguments to the add method
   // if the input taking from main class then we have to pass the values as arguments to the method like add(a,b);  
     }

@@ -27,6 +27,8 @@ public class javad5 {
                 System.out.println("hello");
                 count++;
             } while (count < 5);
+            sc.close();
+
             }
         }
 

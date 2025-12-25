@@ -19,5 +19,7 @@ System.out.println("Enter the radius of circle");
     float rad = sc.nextFloat();
 float area = 3.14f * rad * rad;
 System.out.println("The area of circle is :" + area);
+sc.close();
+
 }
 }
